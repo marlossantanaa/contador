@@ -42,8 +42,13 @@ dependencies:
   animated_text_kit: ^4.2.2
   graphic: ^0.10.7
   animations: ^2.0.7
+  flutter_launcher_icons: ^0.10.0
 
-
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/icons/icon1.png"
+  min_sdk_android: 21
 
 
 dev_dependencies:

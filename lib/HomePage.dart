@@ -13,7 +13,8 @@ class _HomePageState extends State<HomePage> {
   void message(){
   if(isVazio == 0){
     print( 'Vazio');
-  }else if(isCheio == 30){
+
+  }else if(isCheio == 20){
     print('Lotado');
   }
 }
@@ -33,7 +34,7 @@ class _HomePageState extends State<HomePage> {
   print(contador);
   }
   bool get isVazio => contador ==0;
-  bool get isCheio => contador ==5;
+  bool get isCheio => contador ==30;
 
   @override
   Widget build(BuildContext context) {
